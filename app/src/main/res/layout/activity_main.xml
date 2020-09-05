@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=" Student's Information"
+        android:textColor="#001519"
+        android:shadowColor="#39646a"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/ETFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textColor="#000034"
+        />
+    <EditText
+        android:id="@+id/ETLname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textColor="#000034"
+        />
+    <EditText
+        android:id="@+id/ETmarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marks"
+        android:textColor="#000034"
+        />
+    <EditText
+        android:id="@+id/ETID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:textColor="#000034"
+        />
+
+    <Button
+        android:id="@+id/btn_AddData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   ADD DATA  "
+        android:textSize="25dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/gradient_button"
+        android:layout_margin="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_ViewData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  VIEW DATA  "
+        android:textSize="25dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/gradient_button"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_UpdatData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  UPDATE  "
+        android:textSize="25dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/gradient_button"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btn_DltData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  DELETE  "
+        android:textSize="25dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/gradient_button"
+        android:layout_margin="10dp"
+        />
+
+
+
+
+</LinearLayout>
